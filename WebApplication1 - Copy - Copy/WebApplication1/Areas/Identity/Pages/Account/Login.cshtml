@@ -1,0 +1,217 @@
+﻿@page
+@model LoginModel
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        min-height: 100vh;
+        background:
+        /* Increased opacity from 0.9 to 0.96 for stronger overlay */
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        position: relative;
+    }
+
+        /* Optional: More subtle book texture with higher opacity */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="none" width="100" height="100"/><path fill="rgba(0,0,0,0.05)" d="M30,10L50,10L50,90L30,90ZM70,10L50,10L50,90L70,90Z"/></svg>');
+            pointer-events: none;
+            opacity: 0.1; /* Reduced texture opacity */
+        }
+
+    #logreg-forms {
+        width: 100%;
+        max-width: 400px;
+        margin: 5% auto;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-control {
+        margin-bottom: 15px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            transform: scale(1.02);
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+    .btn-info {
+        background-color: #17a2b8;
+        border: none;
+    }
+
+        .btn-info:hover {
+            background-color: #138496;
+        }
+
+    .facebook-btn {
+        background-color: #3b5998;
+        color: white;
+        border: none;
+    }
+
+        .facebook-btn:hover {
+            background-color: #344e86;
+        }
+
+    .or-divider {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+        .or-divider::before, .or-divider::after {
+            content: "";
+            flex: 1;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .or-divider span {
+            padding: 0 10px;
+            color: #777;
+        }
+
+    /* Animation classes */
+    .hover-scale {
+        transition: transform 0.3s ease;
+    }
+
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+
+    .hover-lift {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .hover-lift:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    /* Header styles to match your index page */
+    .page-header {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #343a40;
+    }
+
+        .page-header h1 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .page-header p {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+</style>
+
+<div id="logreg-forms" class="animate__animated animate__fadeInUp">
+    <div class="page-header">
+        <h1>WE PROVIDE YOUR BOOKS</h1
+    </div>
+    <h2 class="h3 mb-3 font-weight-normal text-center text-info">Sign In</h2>
+
+    @if ((Model.ExternalLogins?.Count ?? 0) == 0)
+    {
+        @* <div class="animate__animated animate__fadeIn"> *@
+        @*     <p class="text-center"> *@
+        @*         There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a> *@
+        @*         for details on setting up this ASP.NET application to support logging in via external services. *@
+        @*     </p> *@
+        @* </div> *@
+    }
+    else
+    {
+        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal animate__animated animate__fadeIn">
+            <div>
+                @foreach (var provider in Model.ExternalLogins)
+                {
+                    @if (provider.Name.ToLower().Contains("facebook"))
+                    {
+                        <button type="submit" class="btn btn-block facebook-btn form-control hover-lift mb-3"
+                                name="provider" value="@provider.Name"
+                                title="Log in using your @provider.DisplayName account">
+                            <i class="fab fa-facebook-square"></i> @provider.DisplayName
+                        </button>
+                    }
+                    else
+                    {
+                        <button type="submit" class="btn btn-primary hover-lift btn-block mb-3" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                    }
+                }
+            </div>
+        </form>
+    }
+
+    <form id="account" method="post" class="animate__animated animate__fadeIn">
+        @if (Model.ExternalLogins?.Count > 0)
+        {
+            <div class="or-divider animate__animated animate__fadeIn">
+                <span>OR</span>
+            </div>
+        }
+
+        <input asp-for="Input.Email" placeholder="Email..." type="email" class="mb-3 form-control hover-scale" />
+        <input asp-for="Input.Password" placeholder="Password..." type="password" class="form-control hover-scale mb-3" />
+        <button type="submit" class="btn btn-success btn-block hover-lift mb-3">
+            <i class="fas fa-sign-in-alt"></i> Log in
+        </button>
+
+        <a id="forgot-password" asp-page="./ForgotPassword" class="pb-2 text-info d-block text-center hover-scale">Forgot your password?</a>
+        <div asp-validation-summary="All" class="text-danger animate__animated animate__shakeX"></div>
+        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="btn btn-info text-white btn-block hover-lift mt-3">Register as a new user</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Add animation class when validation errors occur
+        document.addEventListener('DOMContentLoaded', function () {
+            const validationSummary = document.querySelector('.validation-summary-errors');
+            if (validationSummary) {
+                validationSummary.classList.add('animate__animated', 'animate__shakeX');
+            }
+
+            // Add focus effects
+            const inputs = document.querySelectorAll('input.form-control');
+            inputs.forEach(input => {
+                input.addEventListener('focus', function () {
+                    this.classList.add('shadow');
+                });
+                input.addEventListener('blur', function () {
+                    this.classList.remove('shadow');
+                });
+            });
+        });
+    </script>
+}
