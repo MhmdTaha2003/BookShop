@@ -1,68 +1,68 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\New folder\\WebApplication1 - Copy - Copy\\",
+  "WorkspaceRootPath": "E:\\webApplication\\WebApplication1 - Copy - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_individualproductcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_individualproductcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_individualproductcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_individualproductcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\new folder\\webapplication1 - copy - copy\\webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -76,7 +76,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 193,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -84,49 +84,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Notifications.cshtml",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Notifications.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Notifications.cshtml",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Notifications.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Notifications.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T10:09:05.903Z"
+              "WhenOpened": "2025-05-04T09:54:49.889Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T09:54:49.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Product.cs",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Product.cs",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Product.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Product.cs",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Product.cs",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Product.cs",
               "RelativeToolTip": "WebApplication1\\Models\\Product.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T18:23:21.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T18:23:21.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAowBIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -134,37 +120,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Category.cs",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Category.cs",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Category.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Category.cs",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Category.cs",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Category.cs",
               "RelativeToolTip": "WebApplication1\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T17:38:39.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\appsettings.json",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\appsettings.json",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\appsettings.json",
               "RelativeToolTip": "WebApplication1\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T17:15:14.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T17:15:14.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAG4AAAAAAAAAAAAAAHYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -172,11 +157,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
+              "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwCoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T17:31:03.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Notifications.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Notifications.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Notifications.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Notifications.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Notifications.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T10:09:05.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "_IndividualProductCard.cshtml",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_IndividualProductCard.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_IndividualProductCard.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_IndividualProductCard.cshtml",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_IndividualProductCard.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_IndividualProductCard.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_IndividualProductCard.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -184,11 +194,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_ManageNav.cshtml",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -198,9 +208,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAiwG8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -210,9 +220,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Startup.cs",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Startup.cs",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Startup.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Startup.cs",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Startup.cs",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Startup.cs",
               "RelativeToolTip": "WebApplication1\\Startup.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAkwD8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -222,9 +232,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "CartController.cs",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\CartController.cs",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CartController.cs",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\CartController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\CartController.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAAAAAHwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -245,9 +255,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "WebApplication1\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,27 +265,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Home\\Details.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Details.cshtml",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Home\\Details.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Home\\Details.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Details.cshtml",
               "ViewState": "AgIAACAAAAAAAAAAAAAIwDAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-15T19:13:15.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "E:\\New folder\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T17:31:03.573Z"
             },
             {
               "$type": "Document",

@@ -36,10 +36,18 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">+962</span>
                                 </div>
-                                <input asp-for="Input.PhoneNumber" placeholder="Phone Number" type="text" class="form-control" />
+                                <input asp-for="Input.PhoneNumber"
+                                       type="text"
+                                       minlength="9"
+                                       maxlength="9"
+                                       pattern="7\d{9}"
+                                       inputmode="numeric"
+                                       placeholder="Phone Number"
+                                       class="form-control" />
                             </div>
                             <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
                         </div>
+
 
                         <div class="form-row row py-2">
                             <div class="col-6">
