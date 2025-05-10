@@ -1,0 +1,10 @@
+*.bak
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.pdb
+*.db-shm
+*.db-wal
+*.cache
