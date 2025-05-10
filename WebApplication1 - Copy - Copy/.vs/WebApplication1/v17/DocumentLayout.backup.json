@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\webApplication\\WebApplication1 - Copy - Copy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\books\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\books\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|e:\\webapplication\\webapplication1 - copy - copy\\webapplication1\\views\\shared\\_individualproductcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -89,31 +97,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Books\\Index.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAC4BAAAAAAAAAAAnwEcBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T16:25:52.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Books\\About.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Books\\About.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Books\\About.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Books\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T16:25:48.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "OrderController.cs",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\OrderController.cs",
               "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\OrderController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAQwHQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAGUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T16:18:56.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T09:54:49.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Product.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Product.cs",
@@ -125,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
@@ -137,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Category.cs",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Category.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Category.cs",
@@ -149,7 +171,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAHYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T19:11:42.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T09:54:49.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
@@ -161,19 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T19:11:42.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -186,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "_Notifications.cshtml",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_Notifications.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Notifications.cshtml",
@@ -198,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "_IndividualProductCard.cshtml",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Shared\\_IndividualProductCard.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_IndividualProductCard.cshtml",
@@ -210,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -222,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -234,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Startup.cs",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Startup.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Startup.cs",
@@ -246,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CartController.cs",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CartController.cs",
@@ -259,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Microsoft.NET.EolTargetFrameworks.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
@@ -269,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Data\\ApplicationDbContext.cs",
@@ -281,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\webApplication\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Details.cshtml",
@@ -293,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Details.cshtml.g.cs",
               "DocumentMoniker": "C:\\Users\\hallo\\Downloads\\WebApplication1 - Copy - Copy\\WebApplication1 - Copy - Copy\\WebApplication1\\obj\\Debug\\net5.0\\Razor\\Views\\Inquiry\\Details.cshtml.g.cs",
               "ToolTip": "C:\\Users\\hallo\\Downloads\\WebApplication1 - Copy - Copy\\WebApplication1 - Copy - Copy\\WebApplication1\\obj\\Debug\\net5.0\\Razor\\Views\\Inquiry\\Details.cshtml.g.cs",
