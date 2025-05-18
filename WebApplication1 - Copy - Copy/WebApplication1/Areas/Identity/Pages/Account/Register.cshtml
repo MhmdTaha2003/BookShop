@@ -64,8 +64,12 @@
 
 <div class="form-container animate__animated animate__fadeInUp">
     <div class="page-header">
-        <h1>JOIN OUR COMMUNITY</h1>
-        <p>Create your account</p>
+        <h1>
+            @(User.IsInRole(WC.AdminRole) ? "" : " JOIN OUR COMMUNITY")
+        </h1>
+        <p>
+            @(User.IsInRole(WC.AdminRole) ? " Create Admin" : " Create your account")
+        </p>
     </div>
 
     <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
