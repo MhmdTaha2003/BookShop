@@ -157,11 +157,23 @@
     <partial name="_ValidationScriptsPartial" />
     <script>
         $(document).ready(function () {
-            var shippingDate = document.getElementById("shippingDate");
-            if (shippingDate.value == '1/1/0001') {
-                shippingDate.value = "";
-            }
-        })
+            const shippingDate = document.getElementById("shippingDate");
+
+            
+                const now = new Date();
+
+                // Format: MM/DD/YYYY HH:mm:ss (or change as needed)
+                const formattedDate =
+                    (now.getMonth() + 1).toString().padStart(2, '0') + '/' +
+                    now.getDate().toString().padStart(2, '0') + '/' +
+                    now.getFullYear() + ' ' +
+                    now.getHours().toString().padStart(2, '0') + ':' +
+                    now.getMinutes().toString().padStart(2, '0') + ':' +
+                    now.getSeconds().toString().padStart(2, '0');
+
+                shippingDate.value = formattedDate;
+            
+        });
     </script>
 
 }
