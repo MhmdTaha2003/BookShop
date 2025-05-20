@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
+
 namespace WebApplication1
 {
     public static class WC
@@ -16,7 +17,7 @@ namespace WebApplication1
 
         public const string CustomerRole = "Customer";
 
-        public const string EmailAdmin = "ahlamabedaljawwad99@gmail.com";
+        public const string EmailAdmin = "admin.account2@gmail.com";
 
         public const string CategoryName = "Category";
 

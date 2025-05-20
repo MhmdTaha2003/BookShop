@@ -68,7 +68,7 @@ namespace WebApplication1.Areas.Identity.Pages.Account.Manage
         }
 
         public async Task<IActionResult> OnPostAsync()
-        {
+        { 
             if (!ModelState.IsValid)
             {
                 return Page();

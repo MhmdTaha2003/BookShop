@@ -2,85 +2,130 @@
 @model RegisterModel
 @using WebApplication1
 
-<div class="py-4">
-    <div asp-validation-summary="All" class="text-danger"></div>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
 
-    <div class="row form-group">
-        <div class="col-8 offset-2">
-            <div class="card">
-                <div class="card-body px-lg-5 pt-4">
-                    <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
-                        <h3 class="col-12 text-success text-center py-4">
-                            @if (User.IsInRole(WC.AdminRole))
-                            {
-                                <strong>Register an Admin Account</strong>
-                            }
-                            else
-                            {
-                                <strong>Register</strong>
-                            }
-                        </h3>
-                        <hr />
-                        <div class="py-2">
-                            <input asp-for="Input.FullName" placeholder="Name" class="form-control" />
-                            <span asp-validation-for="Input.FullName" class="text-danger"></span>
-                        </div>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
 
-                        <div class="py-2">
-                            <input asp-for="Input.Email" placeholder="Email" type="email" class="form-control" />
-                            <span asp-validation-for="Input.Email" class="text-danger"></span>
-                        </div>
+    .form-container {
+        max-width: 500px;
+        margin: 5% auto;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
 
-                        <div class="py-2">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">+962</span>
-                                </div>
-                                <input asp-for="Input.PhoneNumber"
-                                       type="text"
-                                       minlength="9"
-                                       maxlength="9"
-                                       pattern="7\d{9}"
-                                       inputmode="numeric"
-                                       placeholder="Phone Number"
-                                       class="form-control" />
-                            </div>
-                            <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
-                        </div>
+    .hover-scale {
+        transition: transform 0.3s ease;
+    }
 
+        .hover-scale:hover {
+            transform: scale(1.03);
+        }
 
-                        <div class="form-row row py-2">
-                            <div class="col-6">
-                                <input asp-for="Input.Password" placeholder="Password" type="password" class="form-control" />
-                            </div>
-                            <div class="col-6">
-                                <input asp-for="Input.ConfirmPassword" placeholder="Confirm Password" type="password" class="form-control" />
+    .hover-lift {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
-                            </div>
-                            <span asp-validation-for="Input.Password" class="text-danger"></span>
-                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                        </div>
-                        <div class="py-2">
-                            @if (User.IsInRole(WC.AdminRole))
-                            {
-                                <button type="submit" class="btn btn-warning form-control">Register Admin User</button>
-                            }
-                            else
-                            {
-                                <button type="submit" class="btn btn-primary form-control">Register</button>
-                            }
-                        </div>
-                    </form>
+        .hover-lift:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
 
-                </div>
+    .form-control:focus {
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    .page-header {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #343a40;
+    }
+
+        .page-header h1 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .page-header p {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+</style>
+
+<div class="form-container animate__animated animate__fadeInUp">
+    <div class="page-header">
+        <h1>
+            @(User.IsInRole(WC.AdminRole) ? "" : " JOIN OUR COMMUNITY")
+        </h1>
+        <p>
+            @(User.IsInRole(WC.AdminRole) ? " Create Admin" : " Create your account")
+        </p>
+    </div>
+
+    <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+        <div asp-validation-summary="All" class="text-danger animate__animated animate__shakeX mb-3"></div>
+
+        <div class="form-group">
+            <input asp-for="Input.FullName" placeholder="Full Name" class="form-control hover-scale" />
+            <span asp-validation-for="Input.FullName" class="text-danger small"></span>
+        </div>
+
+        <div class="form-group">
+            <input asp-for="Input.Email" placeholder="Email" type="email" class="form-control hover-scale" />
+            <span asp-validation-for="Input.Email" class="text-danger small"></span>
+        </div>
+
+        <div class="form-group input-group hover-scale">
+            <div class="input-group-prepend">
+                <span class="input-group-text">+962</span>
+            </div>
+            <input asp-for="Input.PhoneNumber" type="text" placeholder="Phone Number" class="form-control" maxlength="9" pattern="7\d{8}" inputmode="numeric" />
+        </div>
+        <span asp-validation-for="Input.PhoneNumber" class="text-danger small"></span>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input asp-for="Input.Password" placeholder="Password" type="password" class="form-control hover-scale" />
+                <span asp-validation-for="Input.Password" class="text-danger small"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <input asp-for="Input.ConfirmPassword" placeholder="Confirm Password" type="password" class="form-control hover-scale" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger small"></span>
             </div>
         </div>
-    </div>
+
+        <div class="form-group">
+            <button type="submit"
+                    class="btn @(User.IsInRole(WC.AdminRole) ? "btn-warning" : "btn-primary") btn-block hover-lift">
+                @(User.IsInRole(WC.AdminRole) ? "Register Admin User" : "Register")
+            </button>
+        </div>
+    </form>
 </div>
-
-
-
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const inputs = document.querySelectorAll('input.form-control');
+            inputs.forEach(input => {
+                input.addEventListener('focus', function () {
+                    this.classList.add('shadow');
+                });
+                input.addEventListener('blur', function () {
+                    this.classList.remove('shadow');
+                });
+            });
+        });
+    </script>
 }

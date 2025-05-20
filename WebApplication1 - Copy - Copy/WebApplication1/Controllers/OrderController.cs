@@ -84,13 +84,23 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
-        public IActionResult ShipOrder()
+        [ValidateAntiForgeryToken]
+        public IActionResult ShipOrder(OrderVM orderVM)
         {
-            OrderHeader orderHeader = _orderHRepo.FirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id);
-            orderHeader.OrderStatus = WC.StatusShipped;
-            orderHeader.ShippingDate = DateTime.Now;
-            _orderHRepo.Save();
-            return RedirectToAction(nameof(Index));
+            var orderHeaderFromDb = _orderHRepo.FirstOrDefault(u => u.Id == orderVM.OrderHeader.Id);
+            if (orderHeaderFromDb != null)
+            {
+                orderHeaderFromDb.OrderStatus = WC.StatusShipped;
+
+                if (DateTime.TryParse(orderVM.OrderHeader.ShippingDate.ToString(), out DateTime parsedDate))
+                {
+                    orderHeaderFromDb.ShippingDate = parsedDate;
+                }
+
+                _orderHRepo.Save();
+            }
+
+            return RedirectToAction("Details", new { id = orderHeaderFromDb.Id });
         }
 
         [HttpPost]
@@ -117,14 +127,30 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult UpdateOrderDetails()
         {
-            OrderHeader orderHeaderFromDb = _orderHRepo.FirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id);
-            orderHeaderFromDb.FullName = OrderVM.OrderHeader.FullName;
-            orderHeaderFromDb.PhoneNumber = OrderVM.OrderHeader.PhoneNumber;
-            orderHeaderFromDb.Email = OrderVM.OrderHeader.Email;
-            _orderHRepo.Save();
-            return RedirectToAction("Details", "Order", new { id = orderHeaderFromDb.Id });
+            
+            
+                if (!ModelState.IsValid)
+                {
+                    return View(OrderVM);  
+                }
+
+                var orderHeaderFromDb = _orderHRepo.FirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id);
+                if (orderHeaderFromDb == null)
+                {
+                    return NotFound();
+                }
+
+                orderHeaderFromDb.FullName = OrderVM.OrderHeader.FullName;
+                orderHeaderFromDb.PhoneNumber = OrderVM.OrderHeader.PhoneNumber;
+                orderHeaderFromDb.Email = OrderVM.OrderHeader.Email;
+
+                _orderHRepo.Save();
+
+                return RedirectToAction("Details", "Order", new { id = orderHeaderFromDb.Id });
+            }
         }
     }
-}
+
