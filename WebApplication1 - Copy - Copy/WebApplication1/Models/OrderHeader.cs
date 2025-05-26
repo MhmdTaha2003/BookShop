@@ -7,6 +7,7 @@ namespace WebApplication1.Models
     public class OrderHeader
     {
         [Key]
+       
         public int Id { get; set; }
 
         public string CreatedByUserId { get; set; }

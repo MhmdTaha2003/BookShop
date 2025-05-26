@@ -7,8 +7,40 @@
       "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\models\\viewmodels\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\viewmodels\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\models\\viewmodels\\productuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\viewmodels\\productuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|c:\\users\\khale\\source\\repos\\bookshop\\webapplication1 - copy - copy\\webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4FB691-F12B-4806-BF2A-7A26FC9065F4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +50,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 193,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAuwFIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T18:40:35.926Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -45,9 +64,126 @@
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Order\\Details.cshtml",
               "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Views\\Order\\Details.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Order\\Details.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAhwFYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T18:26:36.223Z",
+              "WhenOpened": "2025-05-24T18:56:30.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:37:04.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductUserVM.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\ViewModels\\ProductUserVM.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ViewModels\\ProductUserVM.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\ViewModels\\ProductUserVM.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ViewModels\\ProductUserVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:37:23.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\ViewModels\\ProductVM.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ViewModels\\ProductVM.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\ViewModels\\ProductVM.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ViewModels\\ProductVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:37:25.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Product.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:37:43.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:37:02.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Models\\Category.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:37:39.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Repository\\Repository.cs",
+              "RelativeToolTip": "WebApplication1\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:38:16.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:38:27.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BookShop\\WebApplication1 - Copy - Copy\\WebApplication1\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:38:36.676Z",
               "EditorCaption": ""
             }
           ]
