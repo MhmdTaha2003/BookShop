@@ -15,7 +15,7 @@ namespace WebApplication1.Utility
 
         public EmailSender(IConfiguration configuration)
         {
-            _configuration= configuration;
+            _configuration = configuration;
         }
 
 
@@ -31,7 +31,7 @@ namespace WebApplication1.Utility
         // this method will executed and an emial will be send 
         // whenever resgiter a new account / forget password
 
-        public async Task Execute(string email , string subject , string body)
+        public async Task Execute(string email, string subject, string body)
         {
             _mailJetSettingss = _configuration.GetSection("MailJet").Get<MailJetSettings>();
 
@@ -48,7 +48,7 @@ namespace WebApplication1.Utility
                               {
                                "From",
                                new JObject {
-                                {"Email", "ahlamabedaljawwad99@gmail.com"},
+                                {"Email", "bookshop2025.3@gmail.com"},
                                 {"Name", "BookShop Website"}
                                }
                               }, {
@@ -71,10 +71,10 @@ namespace WebApplication1.Utility
                                "HTMLPart",
                                body
                               }
-                              
+
                              }
                                      });
-                                    await client.PostAsync(request);
+            await client.PostAsync(request);
 
         }
 

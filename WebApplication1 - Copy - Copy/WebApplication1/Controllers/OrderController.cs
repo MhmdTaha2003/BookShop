@@ -8,6 +8,8 @@ using WebApplication1.Models;
 using WebApplication1.Repository.IRepository;
 using WebApplication1.Utility.BrainTree;
 using WebApplication1.Models.ViewModels;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using System.Threading.Tasks;
 
 namespace WebApplication1.Controllers
 {
@@ -21,13 +23,20 @@ namespace WebApplication1.Controllers
         [BindProperty]
         public OrderVM OrderVM { get; set; }
 
+        private readonly IEmailSender _emailSender;
+
         public OrderController(
-        IOrderHeaderRepository orderHRepo, IOrderDetailRepository orderDRepo, IBrainTreeGate brain)
+            IOrderHeaderRepository orderHRepo,
+            IOrderDetailRepository orderDRepo,
+            IBrainTreeGate brain,
+            IEmailSender emailSender)
         {
             _brain = brain;
             _orderDRepo = orderDRepo;
             _orderHRepo = orderHRepo;
+            _emailSender = emailSender;
         }
+
 
 
         public IActionResult Index(string searchName = null, string searchEmail = null, string searchPhone = null, string Status = null)
@@ -85,26 +94,52 @@ namespace WebApplication1.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult ShipOrder(OrderVM orderVM)
+        [HttpPost]
+        public async Task<IActionResult> ShipOrder()
         {
-            var orderHeaderFromDb = _orderHRepo.FirstOrDefault(u => u.Id == orderVM.OrderHeader.Id);
-            if (orderHeaderFromDb != null)
-            {
-                orderHeaderFromDb.OrderStatus = WC.StatusShipped;
+            OrderHeader orderHeader = _orderHRepo.FirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id);
+            orderHeader.OrderStatus = WC.StatusShipped;
+            orderHeader.ShippingDate = DateTime.Now;
+            _orderHRepo.Save();
+            // Retrieve ordered items
+            var orderDetails = _orderDRepo
+                .GetAll(o => o.OrderHeaderId == orderHeader.Id, includeProperties: "Product")
+                .ToList();
 
-                if (DateTime.TryParse(orderVM.OrderHeader.ShippingDate.ToString(), out DateTime parsedDate))
-                {
-                    orderHeaderFromDb.ShippingDate = parsedDate;
-                }
+            // Generate book list with prices
+            string bookListHtml = string.Join("<br/>", orderDetails.Select(d =>
+                $"- <strong>{d.Product.Name}</strong> (x{d.Piece}) — {d.PricePerPiece:C} each"));
 
-                _orderHRepo.Save();
-            }
+            // Calculate total
+            decimal total = (decimal)orderDetails.Sum(d => d.Piece * d.PricePerPiece);
 
-            return RedirectToAction("Details", new { id = orderHeaderFromDb.Id });
+            // Create styled email
+            string subject = "Your order has been shipped!";
+            string body = $@"
+               <div style='font-family:Arial, sans-serif; color:#333;'>
+               <h2 style='color:#2c3e50;'>📚 BookShop Shipping Confirmation</h2>
+               <p>Dear <strong>{orderHeader.FullName}</strong>,</p>
+               <p>Your order has been <span style='color:green; font-weight:bold;'>shipped</span> on 
+               <strong>{orderHeader.ShippingDate.ToString("MMMM dd, yyyy")}</strong>.</p>
+               <p><strong>Ordered Book(s):</strong><br/>
+                        {bookListHtml}
+               </p>
+
+                <p><strong>Total Amount:</strong> {total:C}</p>
+
+                <p style='margin-top:20px;'>Thank you for shopping with us!<br/>
+                     — The BookShop Team</p>
+                </div>";
+
+            await _emailSender.SendEmailAsync(orderHeader.Email, subject, body);
+
+            return RedirectToAction(nameof(Index));
         }
 
+
         [HttpPost]
-        public IActionResult CancelOrder()
+        [HttpPost]
+        public async Task<IActionResult> CancelOrder()
         {
             OrderHeader orderHeader = _orderHRepo.FirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id);
 
@@ -113,18 +148,29 @@ namespace WebApplication1.Controllers
 
             if (transaction.Status == TransactionStatus.AUTHORIZED || transaction.Status == TransactionStatus.SUBMITTED_FOR_SETTLEMENT)
             {
-                //no refund
-                Result<Transaction> resultvoid = gateway.Transaction.Void(orderHeader.TransactionId);
+                // no refund
+                Result<Transaction> resultVoid = gateway.Transaction.Void(orderHeader.TransactionId);
             }
             else
             {
-                //refund
+                // refund
                 Result<Transaction> resultRefund = gateway.Transaction.Refund(orderHeader.TransactionId);
             }
+
             orderHeader.OrderStatus = WC.StatusCancelled;
             _orderHRepo.Save();
+
+            // Send cancellation email
+            string subject = $"Order Cancelled";
+            string body = $"<p>Dear {orderHeader.FullName},</p>" +
+                          $"<p>Your order placed on {orderHeader.OrderDate.ToString("MMMM dd, yyyy")} has been <strong>cancelled</strong>.</p>" +
+                          $"<p>If you have any questions, feel free to contact us.</p>";
+
+            await _emailSender.SendEmailAsync(orderHeader.Email, subject, body);
+
             return RedirectToAction(nameof(Index));
         }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]

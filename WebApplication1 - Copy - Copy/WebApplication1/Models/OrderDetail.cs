@@ -21,11 +21,5 @@ namespace WebApplication1.Models
 
         public int Piece { get; set; }
         public double PricePerPiece { get; set; }
-
-
-
-
-
-
     }
 }

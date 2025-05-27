@@ -17,7 +17,7 @@ namespace WebApplication1
 
         public const string CustomerRole = "Customer";
 
-        public const string EmailAdmin = "admin.account2@gmail.com";
+        public const string EmailAdmin = "bookshop2025.3@gmail.com";
 
         public const string CategoryName = "Category";
 

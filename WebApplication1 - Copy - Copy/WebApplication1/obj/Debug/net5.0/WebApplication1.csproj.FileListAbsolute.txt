@@ -2283,3 +2283,4 @@ C:\Users\khale\Source\Repos\BookShop\WebApplication1 - Copy - Copy\WebApplicatio
 C:\Users\khale\Source\Repos\BookShop\WebApplication1 - Copy - Copy\WebApplication1\obj\Debug\net5.0\WebApplication1.pdb
 C:\Users\khale\Source\Repos\BookShop\WebApplication1 - Copy - Copy\WebApplication1\obj\Debug\net5.0\WebApplication1.genruntimeconfig.cache
 C:\Users\khale\Source\Repos\BookShop\WebApplication1 - Copy - Copy\WebApplication1\obj\Debug\net5.0\ref\WebApplication1.dll
+C:\Users\khale\Source\Repos\BookShop\WebApplication1 - Copy - Copy\WebApplication1\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
